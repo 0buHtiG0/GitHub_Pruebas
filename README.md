@@ -1,4 +1,2 @@
 
-Se añade texto en desarrollo
-
-Git
+Nuevo Git
