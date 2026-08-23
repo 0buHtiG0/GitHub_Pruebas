@@ -1,4 +1,4 @@
+#Nuevo Git
 
-Nuevo Git
+~~Ya estamos en la rama~~
 
-Ya estamos en la rama
