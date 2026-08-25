@@ -8,8 +8,8 @@ jobs:
   deploy-0buHtiG0:
     runs-on: ubuntu-latest
     steps:
-	  run: echo "Hacemos pull del código"
-	  run: echo "Correr migraciones"
-      run: echo "Generar binario"
-      run: echo "Publicar versión"
-	  run: echo "Todo listo!"    
+	  - run: echo "Hacemos pull del código"
+	  - run: echo "Correr migraciones"
+      - run: echo "Generar binario"
+      - run: echo "Publicar versión"
+	  - run: echo "Todo listo!"    
