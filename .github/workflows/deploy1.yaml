@@ -10,7 +10,7 @@ jobs:
     
     steps:
       - name: Hola Mundo
-        run: echo "Hola Mundo"
+        run: cat hola.php
 
   third_job:
     needs: second_job
