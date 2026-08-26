@@ -2,8 +2,8 @@ name: Deploy to server
 
 on:
   push:
-    branches: [ develop ]
-    
+    branches: [develop]
+
 jobs:
   second_jobs:
     runs-on: ubuntu-latest
@@ -11,3 +11,10 @@ jobs:
     steps:
       - name: Hola Mundo
         run: echo "Hola Mundo"
+
+  third_jobs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Hola Mundo 2
+        run: echo "Hola Mundo 2"
