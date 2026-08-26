@@ -5,14 +5,15 @@ on:
     branches: [develop]
 
 jobs:
-  second_jobs:
+  second_job:
     runs-on: ubuntu-latest
     
     steps:
       - name: Hola Mundo
         run: echo "Hola Mundo"
 
-  third_jobs:
+  third_job:
+    needs: second_job
     runs-on: ubuntu-latest
     
     steps:
