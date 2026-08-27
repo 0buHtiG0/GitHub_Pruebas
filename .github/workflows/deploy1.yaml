@@ -9,8 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Hola Mundo
-        run: echo "Hola Mundo"
+      - name: Working dir
+        run: ls -al
+      - name: Action
+        uses: actions/checkout@v4
+      - name: Working dir after action
+        run: ls -al
 
   third_job:
     if: ${{ github.ref == 'refs/heads/develop'}}
