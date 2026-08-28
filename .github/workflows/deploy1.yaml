@@ -32,4 +32,4 @@ jobs:
         name: archivo-test
         
      - name: Cat file
-       uses: cat test.log
+       run: cat test.log
